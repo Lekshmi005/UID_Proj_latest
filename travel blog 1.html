@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Trip to Dubai</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #A2C2E2, #F1F9FF);
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Header Styles */
+        h3 {
+            color: #0066cc;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        /* Image Styles */
+        .family-photo {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            animation: zoomIn 1s ease-out;
+        }
+
+        .family-photo:hover {
+            transform: scale(1.05);
+        }
+
+        /* Paragraph Styles */
+        p {
+            font-size: 1.15em;
+            color: #555;
+            text-align: justify;
+            margin-bottom: 20px;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 40px;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes zoomIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>A Trip to Dubai</h3>
+        <img src="website pics/blog1.jpeg" alt="Family in Dubai" class="family-photo">
+        <p>Our family had an amazing time on our Dubai trip, all thanks to Travelonia! From the moment we booked, everything was seamless — the website was easy to use, and the itinerary they provided was perfectly tailored to our needs. The hotel, transportation, and tours were all well-organized, and we especially loved the desert safari and Burj Khalifa experience. The customer service was excellent too, always responsive and helpful. It truly felt like a stress-free vacation, and we’ll definitely be using Travelonia again for our next adventure!</p>
+    </div>
+    <footer>
+        <p>For more travel inspiration, visit <a href="tour_final.html" target="_blank">Travelonia</a></p>
+    </footer>
+</body>
+</html>

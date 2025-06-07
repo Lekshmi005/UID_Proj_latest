@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>England, Europe - Tour Packages</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3hmaDZ0dmkzNXRnNnN5MG45N2lyaTh3b2E1MnJnc2hhenJuaWl4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iHtQHyxs0H1m1yTBGJ/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Overlay Effect */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Adjusted for visibility */
+            z-index: -1;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        /* Title and Description */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #01579b;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 30px;
+            text-align: center;
+            color: #555;
+        }
+
+        /* Places Grid */
+        .places {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        /* Place Card */
+        .place {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .place:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Place Image */
+        .place img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Place Title */
+        .place h3 {
+            margin: 0 0 10px;
+            color: #01579b;
+            font-size: 20px;
+        }
+
+        /* Description */
+        .place p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Decorative Price Badge */
+        .place span {
+            background: #0288d1;
+            color: #fff;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        /* Button */
+        .button-container {
+            text-align: center;
+        }
+
+        .primary-btn {
+            background: #0288d1;
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .primary-btn i {
+            margin-left: 8px;
+        }
+
+        .primary-btn:hover {
+            background: #01579b;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>England, Europe</h1>
+        <p>England's tourism sector is a significant economic driver, attracting millions of visitors annually and contributing billions to the GDP. The country offers a diverse range of attractions, from historic cities like London and York to scenic landscapes like the Lake District and the Jurassic Coast.</p>
+        <div class="places">
+            <div class="place">
+                <span>₹70,000</span>
+                <img src="website pics/London_Skyline_.jpeg" alt="London">
+                <h3>London</h3>
+                <p>London, the capital of England, is renowned for its historical landmarks like Buckingham Palace, Big Ben, and the London Eye. It is also a cultural hub with world-class museums, theaters, and vibrant shopping streets like Oxford Street.</p>
+            </div>
+            <div class="place">
+                <span>₹50,000</span>
+                <img src="website pics/yorkshire.jpeg" alt="Yorkshire">
+                <h3>Yorkshire</h3>
+                <p>Yorkshire is famous for its stunning countryside, charming villages, and historical abbeys. Highlights include the Yorkshire Dales National Park, York Minster, and the Brontë Parsonage Museum.</p>
+            </div>
+            <div class="place">
+                <span>₹55,000</span>
+                <img src="website pics/downtown.jpeg" alt="Downtown">
+                <h3>Downtown</h3>
+                <p>Experience England’s modern urban culture in downtown areas, where skyscrapers blend with historical landmarks. The nightlife, restaurants, and iconic buildings make downtown an unmissable destination.</p>
+            </div>
+            <div class="place">
+                <span>₹65,000</span>
+                <img src="website pics/cannes.jpg" alt="Nottingham">
+                <h3>Nottingham</h3>
+                <p>Nottingham offers a mix of rich history and modern culture. Explore Nottingham Castle, Sherwood Forest (linked to Robin Hood), and the city’s bustling markets and contemporary art galleries.</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="https://example.com/england-tours" class="primary-btn">
+                All Tours <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

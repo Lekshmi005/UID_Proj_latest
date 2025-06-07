@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India, Asia - Tour Packages</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjhjeGphMWRtcXh3Z2xnd3czb24wYTIyOWIwdTh3OTNsM3pmd3dwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bc5gojNhHCRxe/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Overlay Effect */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: -1;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        /* Title and Description */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #01579b;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 30px;
+            text-align: center;
+            color: #555;
+        }
+
+        /* Places Grid */
+        .places {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        /* Place Card */
+        .place {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .place:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Place Image */
+        .place img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Place Title */
+        .place h3 {
+            margin: 0 0 10px;
+            color: #01579b;
+            font-size: 20px;
+        }
+
+        /* Description */
+        .place p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Decorative Price Badge */
+        .place span {
+            background: #0288d1;
+            color: #fff;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        /* Button */
+        .button-container {
+            text-align: center;
+        }
+
+        .primary-btn {
+            background: #0288d1;
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .primary-btn i {
+            margin-left: 8px;
+        }
+
+        .primary-btn:hover {
+            background: #01579b;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>India, Asia</h1>
+        <p>India is a diverse and vibrant country offering a wide range of tourism experiences, from ancient historical sites and cultural treasures to stunning natural landscapes and wildlife sanctuaries. It's a popular destination for both domestic and international travelers, attracting millions each year.</p>
+        <div class="places">
+            <div class="place">
+                <span>₹25,000</span>
+                <img src="website pics/mumbai3.jpg" alt="Mumbai">
+                <h3>Mumbai</h3>
+                <p>Mumbai, the financial capital of India, is a bustling metropolis with iconic landmarks like the Gateway of India and Marine Drive.</p>
+            </div>
+            <div class="place">
+                <span>₹30,000</span>
+                <img src="website pics/redfort.jpg" alt="New Delhi">
+                <h3>New Delhi</h3>
+                <p>New Delhi, the capital of India, is steeped in history and culture. Explore the majestic Red Fort, Humayun's Tomb, and Qutub Minar.</p>
+            </div>
+            <div class="place">
+                <span>₹28,000</span>
+                <img src="website pics/varanasi.webp" alt="Varanasi">
+                <h3>Varanasi</h3>
+                <p>Varanasi, the spiritual heart of India, is known for its ghats along the holy Ganges River and the mesmerizing Ganga Aarti.</p>
+            </div>
+            <div class="place">
+                <span>₹50,000</span>
+                <img src="website pics/kashmir.jpg" alt="Kashmir">
+                <h3>Kashmir</h3>
+                <p>Kashmir, often called Paradise on Earth, is known for its breathtaking landscapes, serene Dal Lake, and the stunning valleys of Gulmarg and Pahalgam.</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="https://example.com/all-tours" class="primary-btn">
+                All Tours <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

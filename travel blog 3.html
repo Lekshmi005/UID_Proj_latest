@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip to London</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #A2C2E2, #F1F9FF);
+            color: #333;
+            line-height: 1.6;
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: lightgray;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: slideIn 1s ease-out;
+        }
+
+        /* Header Styles */
+        h3 {
+            font-family: 'Lato', sans-serif;
+            color: #0066cc;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        /* Image Styles */
+        .family-pic {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .family-pic:hover {
+            transform: scale(1.05);
+        }
+
+        /* Paragraph Styles */
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.15em;
+            color: #555;
+            text-align: justify;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Unforgettable London Adventure with Travelonia</h3>
+        <img src="website pics/blog3.jpeg" alt="5 Families in London" class="family-pic">
+        <p>Our group of five families embarked on a memorable London vacation, expertly curated by Travelonia. From the moment we arrived, the seamless coordination of accommodations, transportation, and guided tours ensured a stress-free experience for all ages. The children were particularly enchanted by the interactive exhibits at the Science Museum and the enchanting Diana Memorial Playground in Hyde Park. Adults enjoyed leisurely strolls through the vibrant neighborhoods of Notting Hill and Covent Garden, while savoring authentic British cuisine at Borough Market. The highlight for many was the private Thames River cruise, offering panoramic views of iconic landmarks like the Tower Bridge and the London Eye. Evenings were spent at The Trafalgar St. James, where families could unwind and reflect on the day's adventures. Thanks to Travelonia's meticulous planning and attention to detail, our London trip was filled with cherished memories, laughter, and a deeper appreciation for this historic city. We wholeheartedly recommend Travelonia to any family seeking a well-organized and enriching travel experience.</p>
+    </div>
+    <footer>
+        <p>For more travel inspiration, visit <a href="tour_final.html"_blank">Travelonia</a></p>
+    </footer>
+</body>
+</html>
