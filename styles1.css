@@ -729,6 +729,17 @@ form input,select{
     color:var(--white-color);
     margin: 4rem 0;
 }
+.footer-wrapper .content{
+    color:var(--white-color);
+}
+
+.footer-wrapper .content h2{
+    color: var(--white-color);
+}
+
+.footer-wrapper .content li a{
+    color: var(--white-color);
+}
 
 .about img{
     width: 50%;
