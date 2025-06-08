@@ -676,6 +676,8 @@ form input,select{
     transition: all 0.5s ease-in;
     transform: translateY(-50%);
     color: var(--white-color);
+    height: 140px;
+    
 }
 .blog:hover .blog-img-content{
     transform: translateY(0%);
@@ -729,6 +731,7 @@ form input,select{
     color:var(--white-color);
     margin: 4rem 0;
 }
+
 .footer-wrapper .content{
     color:var(--white-color);
 }
@@ -740,7 +743,6 @@ form input,select{
 .footer-wrapper .content li a{
     color: var(--white-color);
 }
-
 .about img{
     width: 50%;
     object-fit: cover;
@@ -773,9 +775,11 @@ form input,select{
 .links ul li{
     margin: 1rem;
     font-size: 1rem;
+    
 }
 
 .links ul li a{
+    text-decoration: none;
     color:var(--white-color);
 }
 
